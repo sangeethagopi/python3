@@ -1,7 +1,7 @@
-sc1,ssc1=list(map(int,input().split()))
-sssc1=list(map(int,input().split()))
-ssssc1=[]
-for i in sssc1:
+ac1,bc1=list(map(int,input().split()))
+cc1=list(map(int,input().split()))
+dc1=[]
+for i in cc1:
     if i<=i+1:
-        ssssc1.append(i)
-print(ssss1[ssc1-1])
+        dc1.append(i)
+print(dc1[bc1-1])
