@@ -1,6 +1,5 @@
-n1c,n2c=map(int,input().split())
-n3c=n1c-nc2
-if n3c%2==0:
+z11,s21=input().split()
+if (int(z11)-int(s21))%2==0:
     print("even")
 else:
     print("odd")
