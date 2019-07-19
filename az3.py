@@ -1,7 +1,7 @@
-z111=input()
-n21=len(z111)
+ss=input()
+n2=len(ss)
 if n2%2!=0:
-    z111=z111[:int(n2/2)]+'*'+z111[int(n2/2)+1:n2]
+    ss=ss[:int(n2/2)]+'*'+ss[int(n2/2)+1:n2]
 else:
-    z111=z111[:int(n2/2)-1]+'**'+z111[int(n2/2)+1:n2]
-print(z111)
+    ss=ss[:int(n2/2)-1]+'**'+ss[int(n2/2)+1:n2]
+print(ss)
