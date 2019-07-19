@@ -1,5 +1,5 @@
-SR1112=int(input())
-RI22=0
-for mc in range(1,SR1112+1):
- RI22=RI22+mc
-print(RI22
+e11=int(input())
+f2=0
+for mc in range(1,e11+1):
+ f2=f2+mc
+print(f2)
