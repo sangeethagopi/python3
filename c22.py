@@ -1,3 +1,4 @@
-list1=['One','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten']
-sc=int(input())
-print(list[sc-1])
+kc=['One','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten']
+Nc=int(input())
+if 1<=Nc<=10:
+  print(kc[Nc-1])       
