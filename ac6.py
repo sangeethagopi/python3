@@ -1,0 +1,5 @@
+mc1=input()
+mc2=input()
+mc3=mc2.split()
+mc4=''.join(mc3)
+print(''.join((sorted(mc4,reverse = True))))
