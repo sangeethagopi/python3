@@ -1,5 +1,7 @@
-hc,m11=map(int,input().split())
-h2,m22=map(int,input().split())
-H=hc-h22
-M=m1-m22
-print(abs(H),abs(M))
+z1=list(map(int,input().split()))
+y1=list(map(int,input().split()))
+zz=z1[0]
+yy=y1[0]
+aa=z1[1]
+bb=y1[1]
+print(abs(zz-yy),abs(aa-bb))
