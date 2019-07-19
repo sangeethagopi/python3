@@ -1,10 +1,9 @@
-start,end=map(int,(input().split()))
-for n2 in range (start,end):
-    n1=n2
-    s=0
-    while n2!=0:
-        r=n2%10
-        s=s+r**3
-        n2=n2//10
-    if s==n1:
-      print(n1,end="")
+a,b=map(int,input().split())
+for num in range(a,b):
+  sum=0
+  temp=num
+  while(temp>0):
+     sum=sum+(temp%10)**3
+     temp=temp//10
+  if(sum==num):
+     print(num,end=" ")
