@@ -1,9 +1,12 @@
-pre=int(input())
-pc=0
-rc=1
-gc=1
-for i in range(pre):
-	print(gc,end=' ')
-	gc=pc+rc
-	pc=rc
-	cr=gc
+uc=int(input())
+if uc!=0:
+	print(1,end=' ')
+	oc=1
+	kc=0
+	for i in range(1,uc):
+		zc=kc+oc
+		print(zc,end=' ')
+		kc=oc
+		oc=zc
+else:
+	print(0)
