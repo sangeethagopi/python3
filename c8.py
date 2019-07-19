@@ -1,12 +1,12 @@
-lc=int(input())
-nc=[]
-for i in range(lc):
+pc=int(input())
+bc=[]
+for i in range(pc):
   c=input()
-  n.append(cc)
-f=[]
-for i in zip(*n):
+  bc.append(c)
+d=[]
+for i in zip(*cb):
   if(i.count(i[0])==len(i)):
-    f.append(i[0])
+    d.append(i[0])
   else:
     break
-print(''.join(f))
+print(''.join(d))
